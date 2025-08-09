@@ -1,0 +1,139 @@
+<!doctype html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport"
+          content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>02.07 - Servindo Tags Para Formulários - Parte 2</title>
+</head>
+<body>
+<main>
+    <form action="">
+        <fieldset>
+            <legend>Meu Formulário</legend>
+
+            <p>
+                Insira o seu nome:
+                <label>
+                    <input type="text">
+                </label>
+            </p>
+
+            <p>
+                Insira o seu email:
+                <label>
+                    <input type="email">
+                </label>
+            </p>
+
+            <p>
+                Insira a seu senha:
+                <label>
+                    <input type="password">
+                </label>
+            </p>
+
+            <p>
+                Informe seu sexo:
+                <label><input type="radio" name="sexo"> Masculino</label>
+                <label><input type="radio" name="sexo"> Feminino</label>
+            </p>
+
+            <p>
+                Informe sua tecnologia preferida <br>
+                <label><input type="checkbox">HTML5</label> <br>
+                <label><input type="checkbox">CSS3</label> <br>
+                <label><input type="checkbox">JQuery</label> <br>
+                <label><input type="checkbox">PHP</label> <br>
+            </p>
+
+            <p>
+                Selecione um arquivo <input type="file">
+            </p>
+
+            <p>
+                Informe uma URL <label><input type="url"></label>
+            </p>
+
+            <p>
+                Selecione um curso <br>
+                <label for="curso"></label>
+                <select name="curso" id="curso">
+                    <option value="">Selecione um curso</option>
+                    <option value="HTML5">HTML5</option>
+                    <option value="CSS3">CSS3</option>
+                    <option value="JQuery">JQuery</option>
+                    <option value="PHP">PHP</option>
+                </select>
+            </p>
+
+            <p>
+                Selecione um curso <br>
+                <label for="cursos"></label>
+                <select name="curso" id="cursos">
+
+                    <optgroup label="Cursos de Desenvolvimento">
+                        <option value="HTML5">HTML5</option>
+                        <option value="CSS3">CSS3</option>
+                        <option value="JQuery">JQuery</option>
+                        <option value="Git e Git Workflow">JQuery</option>
+                    </optgroup>
+
+                    <optgroup label="Cursos de Programação">
+                        <option value="PHP">PHP</option>
+                        <option value="JavaScript">JavaScript</option>
+                        <option value="Java">Java</option>
+                    </optgroup>
+
+                </select>
+            </p>
+
+            <p>
+                Range: <label>
+                <input type="range">
+            </label>
+            </p>
+
+            <p>
+                Color Pick: <label>
+                <input type="color">
+            </label>
+            </p>
+
+            <p>
+                Date: <label><input type="date"></label>
+            </p>
+
+            <p>
+                Time: <label><input type="time"></label>
+            </p>
+
+            <p>
+                DateTime: <label><input type="datetime-local"></label>
+            </p>
+
+            <p>
+                Month: <label><input type="month"></label>
+            </p>
+
+            <p>
+                Week: <label><input type="week"></label>
+            </p>
+
+            <p>
+                <button type="submit">
+                    Enviar
+                </button>
+            </p>
+
+            <p>
+                <button type="reset">
+                    Limpar Campos
+                </button>
+            </p>
+        </fieldset>
+    </form>
+</main>
+</body>
+</html>
