@@ -6,7 +6,30 @@ indentificador seletor {
 
  */
 
-p{
-    color: green;
-    text-align: center;
+.articles{
+    width: 800px;
+    background-color: #CCC;
+    padding: 40px;
+    margin: 0 auto;
 }
+
+.articles article{
+    padding: 20px;
+    background-color: #333;
+    color: #FFF;
+    margin: 10px 0;
+}
+
+.articles article h3{
+    color: blanchedalmond !important;
+}
+
+/*.articles p{*/
+/*    color: green;*/
+/*    text-align: center;*/
+/*}*/
+
+/*article p{*/
+/*    color: red;*/
+/*    text-align: justify;*/
+/*}*/
