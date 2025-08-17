@@ -7,13 +7,22 @@ indentificador seletor {
  */
 
 .articles{
-    width: 800px;
+    max-width: calc(1000px - 80px);
+    width: calc(96% - 80px);
     background-color: #CCC;
     padding: 40px;
     margin: 0 auto;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+}
+
+.articles header{
+    flex-basis: 100%;
 }
 
 .articles article{
+    flex-basis: calc(50% - 40px - 20px);
     padding: 20px;
     background-color: #333;
     color: #FFF;
@@ -22,6 +31,20 @@ indentificador seletor {
 
 .articles article h3{
     color: blanchedalmond !important;
+}
+
+.articles article p{
+    font-size: 1.1em;
+}
+
+@media(max-width: 760px){
+    .articles article {
+        flex-basis: calc(100% - 40px - 20px);
+    }
+
+    .articles article p{
+        font-size: 1em;
+    }
 }
 
 /*.articles p{*/
