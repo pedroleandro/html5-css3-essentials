@@ -44,3 +44,48 @@
     color: white;
     background-color: #D36833;
 }
+
+.main_top_container {
+    width: 100%;
+    background-image: url("../_img/bg_main_home.png");
+    background-color: #2D3142;
+    background-repeat: no-repeat;
+    background-position: center center;
+    background-size: cover;
+}
+
+.main_top_container .main_article{
+    max-width: 1300px;
+    margin: 0 auto;
+}
+
+.main_top_container .main_article h1{
+    font-size: 3em;
+    color: white;
+    font-weight: 700;
+    text-align: center;
+}
+
+.main_top_container .main_article p{
+    font-size: 1.7em;
+    color: white;
+    font-weight: 300;
+    text-align: center;
+    margin: 20px 0;
+}
+
+.main_top_container .main_article .btn{
+    background-color: #D36833;
+    color: white;
+    font-size: 0.8em;
+    padding: 10px 40px;
+    border-radius: 5px;
+    -moz-border-radius: 5px;
+    -webkit-border-radius: 5px;
+}
+
+.main_top_container .main_article .top_header_container{
+    margin: 0 auto;
+    max-width: 1300px;
+    padding: 160px 40px;
+}
