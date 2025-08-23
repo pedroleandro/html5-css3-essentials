@@ -236,7 +236,7 @@
 .main_course_content article {
     flex-basis: calc(50% - 40px);
     margin: 10px 0;
-    background-color: #EBEBEB;
+    background-color: #F7F7F7;
     border-radius: 5px;
     -moz-border-radius: 5px;
     -webkit-border-radius: 5px;
@@ -362,29 +362,29 @@
     margin-left: 20px;
 }
 
-.main_school_content_body_left_social_network a{
+.main_school_content_body_left_social_network a {
     color: white;
     text-decoration: none;
     font-size: 0.8em;
 }
 
-.main_school_content_body_left_social_network a:hover{
+.main_school_content_body_left_social_network a:hover {
     text-decoration: underline;
 }
 
-.main_school_content_body_left_title{
+.main_school_content_body_left_title {
     font-size: 1.2em;
     margin-bottom: 20px;
 }
 
-.main_school_content_body_left_content p{
+.main_school_content_body_left_content p {
     margin-bottom: 20px;
     text-align: justify;
 }
 
 .main_school_list {
     width: 100%;
-    background-color: #EBEBEB;
+    background-color: #F7F7F7;
     padding: 20px;
     border-radius: 5px;
     -moz-border-radius: 5px;
@@ -462,11 +462,11 @@
     -moz-border-radius: 50%;
     -webkit-border-radius: 50%;
     padding: 8px;
-    background-color: #EBEBEB;
-    /*border: 8px solid #EBEBEB;*/
+    background-color: #F7F7F7;
+    /*border: 8px solid #F7F7F7;*/
 }
 
-.main_tutor_content_formation_and_description h2{
+.main_tutor_content_formation_and_description h2 {
     color: white;
     font-size: 1.3em;
     margin-bottom: 20px;
@@ -517,4 +517,99 @@
     background-color: #2D3142;
     color: white;
     transition: 0.3s ease;
+}
+
+/* Rodapé - Optin */
+
+.optin_footer {
+    width: 100%;
+    background-color: #F7F7F7;
+}
+
+.optin_footer_content {
+    max-width: 1300px;
+    margin: 0 auto;
+    padding: 40px 0;
+    text-align: center;
+}
+
+.optin_footer_content > header h1 {
+    font-size: 1.8em;
+    margin-bottom: 40px;
+}
+
+.optin_footer_content .btn {
+    background-color: #D36833;
+    color: white;
+    border-radius: 5px;
+    -moz-border-radius: 5px;
+    -webkit-border-radius: 5px;
+    padding: 10px 30px;
+    font-size: 1.2em;
+}
+
+.optin_footer_content .btn:hover {
+    background-color: #2D3142;
+    color: white;
+    transition: 0.3s ease;
+}
+
+.main_footer {
+    max-width: 1300px;
+    margin: 0 auto;
+    padding: 40px 0;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+}
+
+.main_footer > header {
+    flex-basis: 100%;
+}
+
+.main_footer > header h1 {
+    font-size: 1.4em;
+    color: black;
+    margin-bottom: 40px;
+}
+
+.main_footer_content_pages, .main_footer_content_links {
+    flex-basis: 25%;
+}
+
+.main_footer_content_about_project {
+    flex-basis: 50%;
+}
+
+.main_footer_content_about_project p {
+    text-align: justify;
+}
+
+.main_footer article h2 {
+    margin-bottom: 20px;
+}
+
+.main_footer article ul li {
+    list-style: none;
+    margin: 5px 0;
+}
+
+.main_footer article ul li a {
+    color: black;
+}
+
+.main_footer article ul li a:hover {
+    text-decoration: underline;
+}
+
+/* Rodapé */
+
+.footer {
+    width: 100%;
+    background-color: #F7F7F7;
+    padding: 20px;
+    text-align: center;
+    border-top: 1px solid #EBEBEB;
+    font-size: 0.9em;
+    font-weight: 300;
 }
