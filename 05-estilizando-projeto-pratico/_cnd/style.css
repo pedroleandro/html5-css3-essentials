@@ -230,7 +230,7 @@
     display: flex;
     margin: 40px auto;
     flex-wrap: wrap;
-    justify-content: space-around;
+    justify-content: space-between;
 }
 
 .main_course_content article {
@@ -251,4 +251,70 @@
 
 .main_course_content article p {
     font-size: 0.9em;
+}
+
+/* Review do Curso */
+
+.main_course_review {
+    width: 100%;
+    background-color: #D36833;
+    padding: 40px 0;
+}
+
+.main_course_review_content {
+    max-width: 1300px;
+    margin: 0 auto;
+}
+
+.main_course_review_content_title {
+    color: white;
+    font-weight: bold;
+    text-align: center;
+}
+
+.main_course_review_content_title h2 {
+    font-size: 2.4em;
+    margin-bottom: 20px;
+}
+
+/* Reviews do Curso - Comentários */
+
+.main_course_section_reviews {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+}
+
+.main_course_section_reviews > header {
+    flex-basis: 100%;
+    margin-top: 20px;
+    margin-bottom: 20px;
+    color: white;
+    text-align: center;
+    font-size: 1.8em;
+}
+
+.main_course_section_reviews article {
+    flex-basis: calc(50% - 20px);
+    background-color: white;
+    color: black;
+    padding: 20px;
+    margin: 20px 0;
+    border-radius: 5px;
+    -moz-border-radius: 5px;
+    -webkit-border-radius: 5px;
+}
+
+.main_course_section_reviews article h3 {
+    font-size: 1.3em;
+    margin-bottom: 4px;
+}
+
+.main_course_section_reviews article p {
+    font-size: 0.9em;
+}
+
+.main_course_section_reviews article img {
+    width: 15px;
+    margin: 8px 0;
 }
