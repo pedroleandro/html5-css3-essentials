@@ -431,3 +431,90 @@
     font-size: 2em;
     margin-bottom: 5px;
 }
+
+/* Professor */
+
+.main_tutor {
+    width: 100%;
+    background-color: #2D3142;
+}
+
+.main_tutor_content {
+    max-width: calc(1300px - 80px);
+    padding: 40px;
+    margin: 0 auto;
+    color: white;
+    text-align: center;
+}
+
+.main_tutor_content > header h1 {
+    font-size: 2em;
+    margin-bottom: 10px;
+}
+
+.main_tutor_content_img {
+    margin: 40px auto;
+}
+
+.main_tutor_content_img img {
+    max-width: 400px;
+    border-radius: 50%;
+    -moz-border-radius: 50%;
+    -webkit-border-radius: 50%;
+    padding: 8px;
+    background-color: #EBEBEB;
+    /*border: 8px solid #EBEBEB;*/
+}
+
+.main_tutor_content_formation_and_description h2{
+    color: white;
+    font-size: 1.3em;
+    margin-bottom: 20px;
+}
+
+.main_tutor_content_formation_and_description p {
+    color: white;
+    margin-bottom: 20px;
+}
+
+.main_tutor_social_network {
+    max-width: 950px;
+    margin: 0 auto;
+    background-color: #D36833;
+    border-radius: 5px;
+    -moz-border-radius: 5px;
+    -webkit-border-radius: 5px;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    padding: 40px;
+}
+
+.main_tutor_social_network > header {
+    flex-basis: 100%;
+    font-size: 1.2em;
+    margin-bottom: 30px;
+}
+
+.main_tutor_social_network article {
+    flex-basis: 24%;
+}
+
+.main_tutor_social_network article h3 {
+    font-size: 0.9em;
+}
+
+.main_tutor_social_network article h3 a {
+    color: #D36833;
+    background-color: white;
+    border-radius: 5px;
+    -moz-border-radius: 5px;
+    -webkit-border-radius: 5px;
+    padding: 10px 20px;
+}
+
+.main_tutor_social_network article h3 a:hover {
+    background-color: #2D3142;
+    color: white;
+    transition: 0.3s ease;
+}
