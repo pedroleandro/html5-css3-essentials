@@ -372,6 +372,44 @@
     text-decoration: underline;
 }
 
+.main_school_content_body_left_title{
+    font-size: 1.2em;
+    margin-bottom: 20px;
+}
+
+.main_school_content_body_left_content p{
+    margin-bottom: 20px;
+    text-align: justify;
+}
+
+.main_school_list {
+    width: 100%;
+    background-color: #EBEBEB;
+    padding: 20px;
+    border-radius: 5px;
+    -moz-border-radius: 5px;
+    -webkit-border-radius: 5px;
+    margin-bottom: 20px;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+}
+
+.main_school_list > header {
+    width: 100%;
+    color: #D36833;
+    margin-bottom: 20px;
+}
+
+.main_school_list article {
+    flex-basis: calc(50% - 10px);
+}
+
+.main_school_list article header h3 {
+    font-weight: 300;
+    margin: 4px 0;
+}
+
 .main_school_content_body_right {
     flex-basis: 30%;
 }
@@ -381,4 +419,15 @@
     border-radius: 50%;
     -moz-border-radius: 50%;
     -webkit-border-radius: 50%;
+}
+
+.main_school_address {
+    flex-basis: 100%;
+    padding: 46px 0;
+    text-align: center;
+}
+
+.main_school_address header h2 {
+    font-size: 2em;
+    margin-bottom: 5px;
 }
