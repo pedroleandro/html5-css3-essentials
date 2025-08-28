@@ -1,0 +1,684 @@
+.main_header {
+    width: 100%;
+    background-color: #2D3142;
+}
+
+.main_header .container {
+    max-width: 1300px;
+    margin: 0 auto;
+    display: flex;
+}
+
+.main_header .container .logo {
+    flex-basis: 330px;
+    padding: 20px;
+    width: 290px;
+}
+
+.main_header .container .menu {
+    flex-basis: calc(100% - 330px);
+    display: flex;
+    justify-content: flex-end;
+}
+
+.menu ul {
+    display: flex;
+    align-items: stretch;
+}
+
+.menu ul li {
+    list-style: none;
+    display: flex;
+    align-items: center;
+}
+
+.menu ul li a {
+    padding: 0 25px;
+    display: flex;
+    align-items: center;
+    height: 100%;
+    color: #D36833;
+}
+
+.menu ul li a:hover {
+    color: white;
+    background-color: #D36833;
+}
+
+.main_top_container {
+    width: 100%;
+    background-image: url("../_img/bg_main_home.png");
+    background-color: #2D3142;
+    background-repeat: no-repeat;
+    background-position: center center;
+    background-size: cover;
+}
+
+.main_top_container .main_article {
+    max-width: 1300px;
+    margin: 0 auto;
+}
+
+.main_top_container .main_article h1 {
+    font-size: 3em;
+    color: white;
+    font-weight: 700;
+    text-align: center;
+}
+
+.main_top_container .main_article p {
+    font-size: 1.7em;
+    color: white;
+    font-weight: 300;
+    text-align: center;
+    margin: 20px 0;
+}
+
+.main_top_container .main_article .btn {
+    background-color: #D36833;
+    color: white;
+    font-size: 0.8em;
+    padding: 10px 40px;
+    border-radius: 5px;
+    -moz-border-radius: 5px;
+    -webkit-border-radius: 5px;
+}
+
+.main_top_container .main_article .top_header_container {
+    margin: 0 auto;
+    max-width: 1300px;
+    padding: 160px 40px;
+}
+
+/* Conigurações das notícias do blog */
+
+.main_blog {
+    max-width: calc(1300px - 40px);
+    padding: 0 20px;
+    margin: 0 auto;
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+}
+
+.main_blog .main_blog_header {
+    flex-basis: 100%;
+    margin: 30px 0;
+}
+
+.main_blog .main_blog_header h1 {
+    color: black;
+    margin-bottom: 5px;
+    font-size: 2em;
+}
+
+.main_blog article {
+    opacity: 0.7;
+    flex-basis: calc(25% - 20px);
+    margin-bottom: 30px;
+}
+
+.main_blog article:hover {
+    opacity: 1;
+    transition: 0.5s ease;
+}
+
+.main_blog article img {
+    width: 100%;
+}
+
+.main_blog article p {
+    margin: 10px 0;
+}
+
+.main_blog article .category {
+    font-size: 0.875em;
+    color: #D36833;
+}
+
+.main_blog article h2 {
+    font-weight: 300;
+    font-size: 1.2em;
+}
+
+.main_blog article h2 a {
+    color: black;
+}
+
+/* Optin */
+
+.main_optin {
+    width: 100%;
+    background-color: #2D3142;
+    margin: 40px 0;
+}
+
+.main_optin_content {
+    max-width: calc(1300px - 40px);
+    padding: 40px 20px;
+    margin: 0 auto;
+    display: flex;
+}
+
+.main_optin_content header, .main_optin_content form {
+    flex-basis: 50%;
+}
+
+.main_optin_content header h1, .main_optin_content header p {
+    color: white;
+    text-align: right;
+    margin-right: 20px;
+}
+
+.main_optin_content header h1 {
+    font-size: 1.2em;
+    font-weight: 400;
+}
+
+.main_optin_content header p {
+    font-weight: 300;
+    font-size: 0.7em;
+}
+
+.main_optin_content form {
+    display: flex;
+    justify-content: space-between;
+}
+
+.main_optin_content form input[type=text], .main_optin_content form input[type=email] {
+    flex-basis: 30%;
+    border-radius: 10px;
+    -moz-border-radius: 10px;
+    -webkit-border-radius: 10px;
+    border: none;
+    padding: 10px 10px;
+}
+
+.main_optin_content form button {
+    flex-basis: 20%;
+    border-radius: 10px;
+    -moz-border-radius: 10px;
+    -webkit-border-radius: 10px;
+    color: white;
+    background-color: #D36833;
+    border: none;
+    font-weight: bold;
+}
+
+.main_course {
+    width: 100%;
+}
+
+.main_course .main_course_header {
+    max-width: 800px;
+    margin: 40px auto;
+    text-align: center;
+    color: black;
+}
+
+.main_course .main_course_header img {
+    margin-bottom: 20px;
+}
+
+.main_course .main_course_header h1 {
+    font-size: 3em;
+    margin-bottom: 10px;
+}
+
+.main_course_content {
+    max-width: 1300px;
+    display: flex;
+    margin: 40px auto;
+    flex-wrap: wrap;
+    justify-content: space-between;
+}
+
+.main_course_content article {
+    flex-basis: calc(50% - 40px);
+    margin: 10px 0;
+    background-color: #F7F7F7;
+    border-radius: 5px;
+    -moz-border-radius: 5px;
+    -webkit-border-radius: 5px;
+    padding: 20px;
+}
+
+.main_course_content article h2 {
+    font-size: 1.3em;
+    color: black;
+    margin-bottom: 4px;
+}
+
+.main_course_content article p {
+    font-size: 0.9em;
+}
+
+/* Review do Curso */
+
+.main_course_review {
+    width: 100%;
+    background-color: #D36833;
+    padding: 40px 0;
+}
+
+.main_course_review_content {
+    max-width: 1300px;
+    margin: 0 auto;
+}
+
+.main_course_review_content_title {
+    color: white;
+    font-weight: bold;
+    text-align: center;
+}
+
+.main_course_review_content_title h2 {
+    font-size: 2.4em;
+    margin-bottom: 20px;
+}
+
+/* Reviews do Curso - Comentários */
+
+.main_course_section_reviews {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+}
+
+.main_course_section_reviews > header {
+    flex-basis: 100%;
+    margin-top: 20px;
+    margin-bottom: 20px;
+    color: white;
+    text-align: center;
+    font-size: 1.8em;
+}
+
+.main_course_section_reviews article {
+    flex-basis: calc(50% - 20px);
+    background-color: white;
+    color: black;
+    padding: 20px;
+    margin: 20px 0;
+    border-radius: 5px;
+    -moz-border-radius: 5px;
+    -webkit-border-radius: 5px;
+}
+
+.main_course_section_reviews article h3 {
+    font-size: 1.3em;
+    margin-bottom: 4px;
+}
+
+.main_course_section_reviews article p {
+    font-size: 0.9em;
+}
+
+.main_course_section_reviews article img {
+    width: 15px;
+    margin: 8px 0;
+}
+
+/* Escola */
+
+.main_school {
+    width: 100%;
+}
+
+.main_school_content {
+    max-width: 1300px;
+    margin: 0 auto;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+}
+
+.main_school_content_header {
+    flex-basis: 100%;
+    padding: 40px 0;
+}
+
+.main_school_content_header h1 {
+    font-size: 2.2em;
+    margin-bottom: 10px;
+    color: black;
+}
+
+.main_school_content_body_left {
+    flex-basis: calc(70% - 20px);
+}
+
+.main_school_content_body_left_social_network {
+    padding: 10px 10px;
+    background-color: #2D3142;
+    border-radius: 5px;
+    -moz-border-radius: 5px;
+    -webkit-border-radius: 5px;
+    margin-bottom: 20px;
+}
+
+.main_school_content_body_left_social_network span {
+    color: white;
+    margin-left: 20px;
+}
+
+.main_school_content_body_left_social_network a {
+    color: white;
+    text-decoration: none;
+    font-size: 0.8em;
+}
+
+.main_school_content_body_left_social_network a:hover {
+    text-decoration: underline;
+}
+
+.main_school_content_body_left_title {
+    font-size: 1.2em;
+    margin-bottom: 20px;
+}
+
+.main_school_content_body_left_content p {
+    margin-bottom: 20px;
+    text-align: justify;
+}
+
+.main_school_list {
+    width: 100%;
+    background-color: #F7F7F7;
+    padding: 20px;
+    border-radius: 5px;
+    -moz-border-radius: 5px;
+    -webkit-border-radius: 5px;
+    margin-bottom: 20px;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+}
+
+.main_school_list > header {
+    width: 100%;
+    color: #D36833;
+    margin-bottom: 20px;
+}
+
+.main_school_list article {
+    flex-basis: calc(50% - 10px);
+}
+
+.main_school_list article header h3 {
+    font-weight: 300;
+    margin: 4px 0;
+}
+
+.main_school_content_body_right {
+    flex-basis: 30%;
+}
+
+.main_school_content_body_right img {
+    width: 100%;
+    border-radius: 50%;
+    -moz-border-radius: 50%;
+    -webkit-border-radius: 50%;
+}
+
+.main_school_address {
+    flex-basis: 100%;
+    padding: 46px 0;
+    text-align: center;
+}
+
+.main_school_address header h2 {
+    font-size: 2em;
+    margin-bottom: 5px;
+}
+
+/* Professor */
+
+.main_tutor {
+    width: 100%;
+    background-color: #2D3142;
+}
+
+.main_tutor_content {
+    max-width: calc(1300px - 80px);
+    padding: 40px;
+    margin: 0 auto;
+    color: white;
+    text-align: center;
+}
+
+.main_tutor_content > header h1 {
+    font-size: 2em;
+    margin-bottom: 10px;
+}
+
+.main_tutor_content_img {
+    margin: 40px auto;
+}
+
+.main_tutor_content_img img {
+    max-width: 400px;
+    border-radius: 50%;
+    -moz-border-radius: 50%;
+    -webkit-border-radius: 50%;
+    padding: 8px;
+    background-color: #F7F7F7;
+    /*border: 8px solid #F7F7F7;*/
+}
+
+.main_tutor_content_formation_and_description h2 {
+    color: white;
+    font-size: 1.3em;
+    margin-bottom: 20px;
+}
+
+.main_tutor_content_formation_and_description p {
+    color: white;
+    margin-bottom: 20px;
+}
+
+.main_tutor_social_network {
+    max-width: 950px;
+    margin: 0 auto;
+    background-color: #D36833;
+    border-radius: 5px;
+    -moz-border-radius: 5px;
+    -webkit-border-radius: 5px;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    padding: 40px;
+}
+
+.main_tutor_social_network > header {
+    flex-basis: 100%;
+    font-size: 1.2em;
+    margin-bottom: 30px;
+}
+
+.main_tutor_social_network article {
+    flex-basis: 24%;
+}
+
+.main_tutor_social_network article h3 {
+    font-size: 0.9em;
+}
+
+.main_tutor_social_network article h3 a {
+    color: #D36833;
+    background-color: white;
+    border-radius: 5px;
+    -moz-border-radius: 5px;
+    -webkit-border-radius: 5px;
+    padding: 10px 20px;
+}
+
+.main_tutor_social_network article h3 a:hover {
+    background-color: #2D3142;
+    color: white;
+    transition: 0.3s ease;
+}
+
+/* Rodapé - Optin */
+
+.optin_footer {
+    width: 100%;
+    background-color: #F7F7F7;
+}
+
+.optin_footer_content {
+    max-width: 1300px;
+    margin: 0 auto;
+    padding: 40px 0;
+    text-align: center;
+}
+
+.optin_footer_content > header h1 {
+    font-size: 1.8em;
+    margin-bottom: 40px;
+}
+
+.optin_footer_content .btn {
+    background-color: #D36833;
+    color: white;
+    border-radius: 5px;
+    -moz-border-radius: 5px;
+    -webkit-border-radius: 5px;
+    padding: 10px 30px;
+    font-size: 1.2em;
+}
+
+.optin_footer_content .btn:hover {
+    background-color: #2D3142;
+    color: white;
+    transition: 0.3s ease;
+}
+
+.main_footer {
+    max-width: 1300px;
+    margin: 0 auto;
+    padding: 40px 0;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+}
+
+.main_footer > header {
+    flex-basis: 100%;
+}
+
+.main_footer > header h1 {
+    font-size: 1.4em;
+    color: black;
+    margin-bottom: 40px;
+}
+
+.main_footer_content_pages, .main_footer_content_links {
+    flex-basis: 25%;
+}
+
+.main_footer_content_about_project {
+    flex-basis: 50%;
+}
+
+.main_footer_content_about_project p {
+    text-align: justify;
+}
+
+.main_footer article h2 {
+    margin-bottom: 20px;
+}
+
+.main_footer article ul li {
+    list-style: none;
+    margin: 5px 0;
+}
+
+.main_footer article ul li a {
+    color: black;
+}
+
+.main_footer article ul li a:hover {
+    text-decoration: underline;
+}
+
+/* Rodapé */
+
+.footer {
+    width: 100%;
+    background-color: #F7F7F7;
+    padding: 20px;
+    text-align: center;
+    border-top: 1px solid #EBEBEB;
+    font-size: 0.9em;
+    font-weight: 300;
+}
+
+/* Menu Mobile */
+
+.ocultar-menu {
+    display: none !important;
+}
+
+.menu_mobile {
+    flex-basis: calc(100% - 330px);
+    display: flex;
+    justify-content: flex-end;
+}
+
+.menu_mobile ul {
+    display: flex;
+    align-items: center;
+    margin-right: 20px;
+}
+
+.menu_mobile ul li {
+    display: flex;
+    align-items: center;
+    list-style: none;
+    position: relative;
+}
+
+.menu_mobile_botao {
+    display: flex;
+    align-items: center;
+    padding: 20px;
+    color: #D36833;
+    border-radius: 4px 4px 0 0;
+    -moz-border-radius: 4px 4px 0 0;
+    -webkit-border-radius: 4px 4px 0 0;
+}
+
+.menu_mobile_botao:hover {
+    background-color: white;
+}
+
+.menu_mobile_opcoes {
+    min-width: 200px;
+    background-color: white;
+    border-radius: 4px 0 4px 4px;
+    -moz-border-radius: 4px 0 4px 4px;
+    -webkit-border-radius: 4px 0 4px 4px;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: flex-end;
+    position: absolute;
+    top: 100%;
+    right: -20px;
+}
+
+.menu_mobile_opcoes li{
+    flex-basis: 100%;
+}
+
+.menu_mobile_opcoes li a {
+    width: 100%;
+    text-align: center;
+    color: #D36833;
+    padding: 10px 0;
+}
+
+.menu_mobile_opcoes li a:hover {
+    background-color: #D36833;
+    color: white;
+}
