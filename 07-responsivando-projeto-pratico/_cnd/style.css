@@ -649,7 +649,7 @@
     -webkit-border-radius: 4px 4px 0 0;
 }
 
-.menu_mobile_botao:hover {
+.menu_mobile_botao:hover, .menu_mobile_botao_ativo {
     background-color: white;
 }
 
