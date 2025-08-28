@@ -698,6 +698,13 @@
     }
 }
 
+/* 800px */
+@media(max-width: 50em){
+    .main_blog article{
+        flex-basis: calc(33% - 10px);
+    }
+}
+
 /* 768px */
 @media(max-width: 48em){
     .menu{
@@ -721,6 +728,13 @@
     }
 }
 
+/* 640px */
+@media(max-width: 40em){
+    .main_blog article{
+        flex-basis: calc(50% - 10px);
+    }
+}
+
 /* 500px */
 @media(max-width: 31.25em){
     .main_header .container .logo {
@@ -733,5 +747,9 @@
 
     .menu_mobile {
         flex-basis: calc(100% - 220px) !important;
+    }
+
+    .main_blog article{
+        flex-basis: calc(100% - 10px);
     }
 }
