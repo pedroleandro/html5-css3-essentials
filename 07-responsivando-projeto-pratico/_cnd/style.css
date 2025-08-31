@@ -330,6 +330,7 @@
 .main_school_content {
     max-width: 1300px;
     margin: 0 auto;
+    padding: 0 20px;
     display: flex;
     flex-wrap: wrap;
     justify-content: space-between;
@@ -727,6 +728,21 @@
     .main_optin_content form input[type="text"], .main_optin_content form input[type="email"] {
         padding: 8px 30px;
     }
+
+    .main_school_content_body_left {
+        flex-basis: 100%;
+    }
+
+    .main_school_content_body_right {
+        flex-basis: 200px;
+        max-width: 200px;
+        padding: 20px;
+    }
+
+    .main_school_address {
+        flex-basis: calc(100% - 200px);
+        margin: auto;
+    }
 }
 
 /* 840px */
@@ -795,6 +811,13 @@
     .main_course_section_reviews header h2{
         font-size: 0.7em;
     }
+
+    .main_school_list > article{
+        flex-basis: 100%;
+        padding: 10px 0;
+        font-size: 1.1em;
+        line-height: 2em;
+    }
 }
 
 /* 640px */
@@ -806,6 +829,17 @@
     .main_optin_content form input[type="text"], .main_optin_content form input[type="email"] {
         flex-basis: 100%;
         flex-wrap: wrap;
+    }
+}
+
+/* 520px */
+@media(max-width: 32.5em){
+    .main_school_content_body_right {
+        display: none;
+    }
+
+    .main_school_address {
+        flex-basis: 100%;
     }
 }
 
