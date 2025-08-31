@@ -771,6 +771,22 @@
     }
 }
 
+/* 870px */
+@media(max-width: 54.375em){
+    .main_tutor_social_network {
+        max-width: 80%;
+    }
+
+    .main_tutor_social_network h2 {
+        margin-bottom: 20px;
+    }
+
+    .main_tutor_social_network article {
+        flex-basis: 49%;
+        margin-bottom: 30px;
+    }
+}
+
 /* 800px */
 @media(max-width: 50em){
     .main_blog article{
@@ -829,6 +845,11 @@
     .main_optin_content form input[type="text"], .main_optin_content form input[type="email"] {
         flex-basis: 100%;
         flex-wrap: wrap;
+    }
+
+    .main_tutor_social_network article {
+        flex-basis: 100%;
+        margin-bottom: 30px;
     }
 }
 
