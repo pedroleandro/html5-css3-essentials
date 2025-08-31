@@ -527,12 +527,13 @@
 .optin_footer {
     width: 100%;
     background-color: #F7F7F7;
+    padding: 20px;
 }
 
 .optin_footer_content {
     max-width: 1300px;
     margin: 0 auto;
-    padding: 40px 0;
+    padding: 40px 20px;
     text-align: center;
 }
 
@@ -560,7 +561,7 @@
 .main_footer {
     max-width: 1300px;
     margin: 0 auto;
-    padding: 40px 0;
+    padding: 40px 20px;
     display: flex;
     flex-wrap: wrap;
     justify-content: space-between;
@@ -833,6 +834,15 @@
         padding: 10px 0;
         font-size: 1.1em;
         line-height: 2em;
+    }
+
+    .main_footer_content_pages, .main_footer_content_links {
+        flex-basis: calc(49% - 10px);
+    }
+
+    .main_footer_content_about_project {
+        flex-basis: 100%;
+        margin-top: 20px;
     }
 }
 
