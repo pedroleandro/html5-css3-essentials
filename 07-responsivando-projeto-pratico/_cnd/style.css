@@ -265,6 +265,7 @@
 .main_course_review_content {
     max-width: 1300px;
     margin: 0 auto;
+    padding: 20px;
 }
 
 .main_course_review_content_title {
@@ -782,6 +783,18 @@
     .main_top_container .main_article .btn {
         font-size: 0.5em;
     }
+
+    .main_course_review_content_title header h2{
+        font-size: 2em;
+    }
+
+    .main_course_review_content_title img {
+        width: 25px;
+    }
+
+    .main_course_section_reviews header h2{
+        font-size: 0.7em;
+    }
 }
 
 /* 640px */
@@ -816,5 +829,11 @@
 
     .main_course_content article{
         flex-basis: calc(100% - 40px);
+    }
+
+    .main_course_section_reviews article {
+        flex-basis: calc(100% - 40px);
+        margin: 10px auto;
+
     }
 }
